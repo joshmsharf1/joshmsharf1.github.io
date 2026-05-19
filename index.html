@@ -19,7 +19,7 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background: #ffffff;
+      background: #f4f7f4;
       color: #1a1a1a;
       min-height: 100vh;
       display: flex;
@@ -27,10 +27,10 @@
       line-height: 1.6;
     }
     header {
-      background: #0e6ea6;
+      background: #2d7a3e;
       color: white;
       padding: 1.25rem 2rem;
-      border-bottom: 4px solid #0a587f;
+      border-bottom: 4px solid #1e5a2e;
     }
     header .wordmark {
       font-size: 1.15rem;
@@ -52,7 +52,7 @@
     h1 {
       font-size: 2.25rem;
       margin-bottom: 1.25rem;
-      color: #0e6ea6;
+      color: #2d7a3e;
       font-weight: 700;
       line-height: 1.2;
     }
@@ -64,32 +64,39 @@
       margin-left: auto;
       margin-right: auto;
     }
+    .lede a {
+      color: #2d7a3e;
+      text-decoration: underline;
+    }
+    .lede a:hover {
+      color: #1e5a2e;
+    }
     .button {
       display: inline-block;
-      background: #0e6ea6;
+      background: #2d7a3e;
       color: white;
       padding: 0.95rem 2.25rem;
       font-size: 1.05rem;
       font-weight: 600;
       text-decoration: none;
-      border-radius: 4px;
+      border-radius: 6px;
       transition: background 0.15s ease;
-      border: 2px solid #0e6ea6;
+      border: 2px solid #2d7a3e;
     }
     .button:hover {
-      background: #0a587f;
-      border-color: #0a587f;
+      background: #1e5a2e;
+      border-color: #1e5a2e;
     }
     footer {
-      background: #f4f6f8;
+      background: #e8efe8;
       padding: 1.5rem 2rem;
       text-align: center;
       font-size: 0.85rem;
       color: #6a6a6a;
-      border-top: 1px solid #e0e4e8;
+      border-top: 1px solid #d4ddd4;
     }
     footer a {
-      color: #0e6ea6;
+      color: #2d7a3e;
       text-decoration: none;
     }
     footer a:hover {
@@ -110,7 +117,7 @@
   <main>
     <div class="card">
       <h1>The Straight Shot Database</h1>
-      <p class="lede">Welcome. Click below to access the database.</p>
+      <p class="lede">Welcome to The Straight Shot from the <a href="https://www.cspi.org/thestraightshot">Center for Science in the Public Interest</a>.</p>
       <a class="button" href="https://apps.knack.com/thestraightshot/tss/home-page">
         Open the Database
       </a>
